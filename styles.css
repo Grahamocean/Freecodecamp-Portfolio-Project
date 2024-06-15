@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Poppins, sans-serif;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  width: 1263px;
+  height: 53px;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: flex-end;
+  background: #be3144;
+}
+
+#navbar ul {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+#navbar ul li a {
+  color: #fff;
+  font-size: 1.03125rem;
+  font-weight: 500;
+}
+
+#navbar ul li {
+  padding: 15px;
+}
+
+#navbar ul li:hover {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 15px;
+  background: #45567d;
+  height: 100%;
+}
+
+#welcome-section {
+  max-width: 100%;
+  width: 1263px;
+  height: 551px;
+  background: linear-gradient(10deg, #333, #000);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-section h1 {
+  font-size: 2.8rem;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  color: #f0f0f0;
+  margin-bottom: 3px;
+}
+
+#welcome-section p {
+  color: #be3144;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+#projects {
+  width: 100%;
+  height: 1220px;
+  background: #45567d;
+  padding: 4em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-title {
+  width: 640px;
+  height: 45px;
+  border-bottom: 1px solid #fff;
+}
+.project-title h1 {
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#project-tile {
+  width: 1233px;
+  height: 898px;
+  border: 1px solid white;
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.project-tile {
+  width: 391px;
+  height: 432px;
+  border: 1px solid white;
+}
+
+#projects button {
+  background: #000;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+#projects button:hover {
+  background: #be3144;
+  transition: 0.5s ease-in-out;
+}
+
+#projects button:hover i {
+  margin-left: 3px;
+}
+
+#projects button a i {
+  font-size: 1.5rem;
+}
+
+#projects button a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.social {
+  width: 1263px;
+  height: 441px;
+  background: #303841;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 5px solid #be3144;
+}
+
+.work-together {
+  width: 444px;
+  height: 82px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.work-together h1 {
+  font-size: 3.5rem;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+.work-together p {
+  font-size: 1.2rem;
+  font-family: Raleway, sans-serif;
+  font-style: italic;
+  color: #fff;
+}
+
+.social-links {
+  width: 980px;
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5em;
+}
+
+.socials {
+  display: flex;
+  gap: 0.3em;
+  align-items: center;
+}
+
+.socials:hover {
+  margin-top: 1em;
+  transition: 0.5s ease-in-out;
+}
+
+.socials i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.socials a {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 600;
+  font-family: Raleway, sans-serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1000px) {
+}
